@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bodybox {
+  background-color: #F5EDDC;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 2.5%;
+}
+
+.box {
+  border: solid;
+  background-color: #B7C4CF;
+  margin: 2% 5%;
+  padding: 5%;
+  box-shadow: 5px 5px #888888;
+}
+
+.ximage {
+  height: 400px;
+  width: 650px;
+}
+
+.imgbox {
+  border: solid;
+  background-color: #D7C0AE;
+  padding: 3%;
+  box-shadow: 5px 5px #888888;
+}
+
+h1 {
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  color: black;
+  opacity: 0.75;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 8px 8px -6px rgba(0, 0, 0, .5);
+  background-color: #D7C0AE;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 0.9;
+}
+
+.footer {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  background-color: #ededed;
+  padding: 40px 0;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  opacity: 0.9;
+}
+
+.footer .copyright {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+.sub a {
+  text-decoration: none;
+}
+.box1 {
+  border: solid;
+  background-color: #D7C0AE;
+  margin: 2% 5%;
+  padding: 1%;
+  box-shadow: 5px 5px #888888;
+}
+.box2 {
+  border: solid;
+  background-color: #BBBFCA;
+  margin: 2% 5%;
+  padding: 1%;
+  box-shadow: 5px 5px #888888;
+}
+.box3 {
+  border: solid;
+  background-color: #BBBFCA;
+  margin-top: 2%;
+  padding: 1%;
+  box-shadow: 5px 5px #888888;
+  top: 15px;
+}
+.one {
+  text-decoration: none;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #5F6F94;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+
+  font-weight: bold;
+}
+.one::after{
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.one:hover{
+  color: black;
+  opacity: 0.8;
+}
+.one:hover::after{
+  width: 100%;
+}
